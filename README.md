@@ -33,10 +33,10 @@ No install step. No dependencies. Python 3.8+. Data is fetched live from a publi
 
 ## What this is — and isn't
 
-This repo is the **backtester only**. The full **MESS QUANT ZERO** kit is the production trading *machine* that runs a strategy live: a 10-service Dockerised stack (live feed → signal → risk → execution → journal), a Next.js cockpit dashboard, Telegram ops bot (bring your own), Supabase persistence, and one-command deploy — paper-trading by default and LIVE-LOCKED.
+This repo is the **backtester only**. The full **MESS QUANT ZERO** kit is the *infrastructure* — a paper-trading research & operations stack that runs a strategy in paper simulation: a 10-service Dockerised stack (feed → signal → risk → execution → journal), a risk-governance engine, an operator dashboard, Telegram ops bot (bring your own), Supabase persistence, and one-command deploy — paper-trading by default and LIVE-LOCKED, no broker connected. Infrastructure, not alpha.
 
 - 🛒 **Full source kit (£69):** https://scanme2.gumroad.com/l/qlbax
-- 📊 **Live cockpit demo:** https://dashboard-sage-three-98.vercel.app
+- 📊 **Operator dashboard demo (paper):** https://dashboard-sage-three-98.vercel.app
 - 🤗 **Hugging Face Space:** https://huggingface.co/spaces/HOTMESSLDN/mess-quant-zero
 
 If this backtester is useful, a ⭐ helps.
